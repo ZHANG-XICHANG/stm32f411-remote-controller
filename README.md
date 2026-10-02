@@ -1,5 +1,7 @@
 # STM32F411 無線飛控遙控器
 
+**繁體中文** | [English](README.en.md)
+
 以 **STM32F411CEU6、FreeRTOS、nRF24L01+ 與雙搖桿**製作的無線遙控器，搭配 [STM32F103 Flight Controller](https://github.com/ZHANG-XICHANG/stm32f103-flight-controller) 使用。除了傳送四軸操控與按鍵命令，也透過 USB CDC 將飛控遙測傳至電腦，並轉送 PID 調參命令。
 
 ![遙控器實圖](images/remote-controller.jpg)
